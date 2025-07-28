@@ -1,3 +1,4 @@
+ --------||||HOME||||--------
 Waqt | Timeless Luxury Watches
 A responsive e-commerce website developed using HTML, CSS, and JavaScript, designed to showcase a premium collection of luxury watches and accessories through a modern, elegant interface.
 
@@ -18,6 +19,5 @@ Product and content data—watches, accessories, and Instagram posts—are dynam
 Design Aesthetics
 Uses Font Awesome for modern iconography and implements refined visual styling to deliver a premium, user-centric interface.
 
-  --------||||HOME||||--------
-  ![Image Alt]()
+  ![Image Alt](https://github.com/faizanalisyed2776/Waqt-Timeless-Luxury-Watches/blob/84e4efd3d7fbf48ad468d2747bc625191d2d2934/assets/Shots/Screenshot%202025-07-29%20043338.png)
  
