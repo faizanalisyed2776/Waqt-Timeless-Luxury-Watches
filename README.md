@@ -1,4 +1,5 @@
 --------||||HOME||||--------
+
 Waqt | Timeless Luxury Watches
 A responsive e-commerce website developed using HTML, CSS, and JavaScript, designed to showcase a premium collection of luxury watches and accessories through a modern, elegant interface.
 
