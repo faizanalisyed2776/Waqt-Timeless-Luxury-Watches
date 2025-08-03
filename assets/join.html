@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join Waqt | Luxury Watch Community</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700&family=Open+Sans:wght@300;400;600&display=swap">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="join.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" href="Waqt.png" type="image/png">
+</head>
+<body>
+    <!-- Theme Toggle -->
+    <div class="theme-toggle">
+        <i class="fas fa-sun"></i>
+        <i class="fas fa-moon"></i>
+    </div>
+
+    <!-- Header -->
+    <header class="sticky-header">
+        <div class="container">
+            <div class="logo-container">
+                <a href="index.html">
+                    <img src="Waqt.png" alt="Waqt Logo" class="logo">
+                    <h1>Waqt</h1>
+                </a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="index.html#collections">Collections</a></li>
+                    <li><a href="index.html#smartwatches">Smartwatches</a></li>
+                    <li><a href="index.html#accessories">Accessories</a></li>
+                    <li><a href="join.html" class="active">Join Us</a></li>
+                </ul>
+            </nav>
+            <div class="header-actions">
+                <button class="search-btn"><i class="fas fa-search"></i></button>
+                <button class="wishlist-btn"><i class="far fa-heart"></i></button>
+                <button class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i>
+                    <span class="cart-count">0</span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu">
+        <button class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </div>
+
+    <!-- Join Us Hero Section -->
+    <section class="join-hero">
+        <div class="container">
+            <div class="join-hero-content">
+                <h2>Become Part of the Waqt Community</h2>
+                <p>Join thousands of watch enthusiasts and enjoy exclusive benefits</p>
+                <div class="scroll-indicator">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Auth Toggle Section -->
+    <section class="auth-section">
+        <div class="container">
+            <div class="auth-toggle-container">
+                <div class="auth-toggle">
+                    <button class="auth-btn active" id="loginBtn">Login</button>
+                    <button class="auth-btn" id="signupBtn">Sign Up</button>
+                    <div class="active-indicator"></div>
+                </div>
+            </div>
+
+            <!-- Login Form -->
+            <div class="auth-form-container">
+                <form id="loginForm" class="auth-form active">
+                    <div class="form-group">
+                        <label for="loginEmail">Email Address</label>
+                        <div class="input-with-icon">
+                            <i class="fas fa-envelope"></i>
+                            <input type="email" id="loginEmail" required placeholder="your@email.com">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="loginPassword">Password</label>
+                        <div class="input-with-icon">
+                            <i class="fas fa-lock"></i>
+                            <input type="password" id="loginPassword" required placeholder="••••••••">
+                            <button type="button" class="toggle-password" aria-label="Show password">
+                                <i class="fas fa-eye"></i>
+                            </button>
+                        </div>
+                        <a href="#" class="forgot-password">Forgot password?</a>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-auth">
+                        <span>Login</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </button>
+                    <div class="social-login">
+                        <div class="divider">
+                            <span>Or login with</span>
+                        </div>
+                        <div class="social-buttons">
+                            <button type="button" class="social-btn google">
+                                <i class="fab fa-google"></i> Google
+                            </button>
+                            <button type="button" class="social-btn facebook">
+                                <i class="fab fa-facebook-f"></i> Facebook
+                            </button>
+                        </div>
+                    </div>
+                </form>
+
+                <!-- Signup Form -->
+                <form id="signupForm" class="auth-form">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="signupFirstName">First Name</label>
+                            <div class="input-with-icon">
+                                <i class="fas fa-user"></i>
+                                <input type="text" id="signupFirstName" required placeholder="John">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="signupLastName">Last Name</label>
+                            <div class="input-with-icon">
+                                <i class="fas fa-user"></i>
+                                <input type="text" id="signupLastName" required placeholder="Doe">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="signupEmail">Email Address</label>
+                        <div class="input-with-icon">
+                            <i class="fas fa-envelope"></i>
+                            <input type="email" id="signupEmail" required placeholder="your@email.com">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="signupPassword">Password</label>
+                        <div class="input-with-icon">
+                            <i class="fas fa-lock"></i>
+                            <input type="password" id="signupPassword" required placeholder="••••••••">
+                            <button type="button" class="toggle-password" aria-label="Show password">
+                                <i class="fas fa-eye"></i>
+                            </button>
+                        </div>
+                        <div class="password-strength">
+                            <div class="strength-meter">
+                                <span class="strength-bar"></span>
+                                <span class="strength-bar"></span>
+                                <span class="strength-bar"></span>
+                            </div>
+                            <span class="strength-text">Password strength</span>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="signupConfirmPassword">Confirm Password</label>
+                        <div class="input-with-icon">
+                            <i class="fas fa-lock"></i>
+                            <input type="password" id="signupConfirmPassword" required placeholder="••••••••">
+                            <button type="button" class="toggle-password" aria-label="Show password">
+                                <i class="fas fa-eye"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="form-group checkbox-group">
+                        <input type="checkbox" id="signupAgree" required>
+                        <label for="signupAgree">I agree to the <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a></label>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-auth">
+                        <span>Create Account</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="join-benefits">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Why Join Waqt?</h2>
+                <p class="section-subtitle">Experience the exclusive benefits of being a Waqt member</p>
+            </div>
+            <div class="benefits-grid">
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-tag"></i>
+                    </div>
+                    <h3>Exclusive Discounts</h3>
+                    <p>Get access to members-only sales and early access to new collections.</p>
+                    <div class="benefit-decoration"></div>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-gift"></i>
+                    </div>
+                    <h3>Birthday Rewards</h3>
+                    <p>Receive special gifts and discounts during your birthday month.</p>
+                    <div class="benefit-decoration"></div>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h3>Early Access</h3>
+                    <p>Be the first to shop limited edition releases and collaborations.</p>
+                    <div class="benefit-decoration"></div>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3>Wishlist Sync</h3>
+                    <p>Save your favorite items across devices and get restock notifications.</p>
+                    <div class="benefit-decoration"></div>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-shipping-fast"></i>
+                    </div>
+                    <h3>Free Shipping</h3>
+                    <p>Enjoy free standard shipping on all orders as a member.</p>
+                    <div class="benefit-decoration"></div>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-calendar-alt"></i>
+                    </div>
+                    <h3>Event Invites</h3>
+                    <p>Get invited to exclusive product launches and watch enthusiast events.</p>
+                    <div class="benefit-decoration"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="join-testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">What Our Members Say</h2>
+                <p class="section-subtitle">Hear from our community of watch enthusiasts</p>
+            </div>
+            <div class="testimonials-carousel">
+                <div class="testimonial-card active">
+                    <div class="testimonial-content">
+                        <div class="testimonial-text">
+                            "Joining Waqt was the best decision for my watch collection. The exclusive access to limited editions is unmatched."
+                        </div>
+                        <div class="testimonial-author">
+                            <img src="assets/images/testimonial-1.jpg" alt="Alex Morgan" class="author-image">
+                            <div class="author-info">
+                                <h4>Alex Morgan</h4>
+                                <p>Member since 2019</p>
+                                <div class="author-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="testimonial-text">
+                            "The birthday discount allowed me to get my dream watch at an incredible price. Worth every penny of the membership!"
+                        </div>
+                        <div class="testimonial-author">
+                            <img src="assets/images/testimonial-2.jpg" alt="Sarah Chen" class="author-image">
+                            <div class="author-info">
+                                <h4>Sarah Chen</h4>
+                                <p>Member since 2020</p>
+                                <div class="author-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="testimonial-text">
+                            "As a watch enthusiast, the community events have been invaluable. I've met so many like-minded collectors."
+                        </div>
+                        <div class="testimonial-author">
+                            <img src="assets/images/testimonial-3.jpg" alt="James Wilson" class="author-image">
+                            <div class="author-info">
+                                <h4>James Wilson</h4>
+                                <p>Member since 2018</p>
+                                <div class="author-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-controls">
+                    <button class="carousel-prev"><i class="fas fa-chevron-left"></i></button>
+                    <div class="carousel-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                    <button class="carousel-next"><i class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="join-cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to Join the Waqt Community?</h2>
+                <p>Create your account today and start enjoying exclusive benefits</p>
+                <button class="btn btn-primary" id="ctaSignupBtn">Sign Up Now</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-column">
+                    <div class="logo-container">
+                        <img src="Waqt.png" alt="Waqt Logo" class="logo">
+                        <h2>Waqt</h2>
+                    </div>
+                    <p>Timeless craftsmanship since 1984. Redefining luxury watches for the modern era.</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h3>Customer Care</h3>
+                    <ul>
+                    <ul>
+                        <li><a href="/index.html">Contact Us</a></li>
+                        <li><a href="collections.html">Collection</a></li>
+                        <li><a href="join.html">Join Us</a></li>
+                        <li><a href="#">Shipping & Returns</a></li>
+                        <li><a href="#">Order Tracking</a></li>
+                        <li><a href="#">Warranty Information</a></li>
+                    </ul>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>About Waqt</h3>
+                    <ul>
+                        <li><a href="#">Our Story</a></li>
+                        <li><a href="#">Craftsmanship</a></li>
+                        <li><a href="#">Sustainability</a></li>
+                        <li><a href="#">Press</a></li>
+                        <li><a href="#">Careers</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Store Information</h3>
+                    <address>
+                        Waqt Watches HQ<br>
+                        123 Horology Avenue<br>
+                        Geneva, Switzerland
+                    </address>
+                    <p>Customer Service:<br>
+                    <a href="tel:+18005551234">+1 (800) 555-1234</a></p>
+                    <div class="language-selector">
+                        <select>
+                            <option value="en">English</option>
+                            <option value="fr">Français</option>
+                            <option value="de">Deutsch</option>
+                        </select>
+                        <select>
+                            <option value="usd">USD</option>
+                            <option value="eur">EUR</option>
+                            <option value="gbp">GBP</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Waqt Watches. All rights reserved.</p>
+                <div class="legal-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Cookie Settings</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top"><i class="fas fa-arrow-up"></i></button>
+
+    <!-- Scripts -->
+    <script src="main.js"></script>
+    <script src="join.js"></script>
+</body>
+</html>
