@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collections | Waqt</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700&family=Poppins:wght@300;400;600&display=swap">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="collections.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" href="assets/images/Waqt.png" type="image/png">
+</head>
+<body>
+    <!-- Theme Toggle -->
+    <div class="theme-toggle">
+        <i class="fas fa-sun"></i>
+        <i class="fas fa-moon"></i>
+    </div>
+
+    <!-- Header -->
+    <header class="sticky-header">
+        <div class="container">
+            <div class="logo-container">
+                <img src="assets/images/Waqt.png" alt="Waqt Logo" class="logo">
+                <h1>Waqt</h1>
+            </div>
+            <nav>
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="index.html#collections">Collections</a></li>
+                    <li><a href="index.html#smartwatches">Smartwatches</a></li>
+                    <li><a href="index.html#accessories">Accessories</a></li>
+                    <li><a href="join.html" class="active">Join Us</a></li></ul>
+            </nav>
+            <div class="header-actions">
+                <div class="search-container">
+                    <input type="text" placeholder="Search watches, brands..." class="search-input">
+                    <button class="search-btn"><i class="fas fa-search"></i></button>
+                </div>
+                <a href="join.html"><button class="join-btn"><i class="fa-solid fa-user"></i></button></a>
+                <button class="wishlist-btn">
+                    <i class="far fa-heart"></i>
+                </button>
+                <button class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i>
+                    <span class="cart-count">0</span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu">
+        <button class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </div>
+
+    <!-- Video Hero Section -->
+    <section class="video-hero">
+        <video autoplay muted loop>
+            <source src="assets/videos/collection-hero.mp4" type="video/mp4">
+        </video>
+        <div class="hero-content">
+            <h2 class="hero-title">Curated Timepieces That Define Legacy</h2>
+            <p class="hero-subtitle">Explore the 2025 Fossil-Inspired Collection</p>
+            <div class="hero-actions">
+                <a href="#flash-sale" class="btn btn-primary">Flash Deals</a>
+                <a href="#men" class="btn btn-outline">View All</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Brand Logo Loop -->
+    <section class="brand-loop">
+        <div class="brand-track">
+            <img src="assets/images/brands/fossil.png" alt="Fossil">
+            <img src="assets/images/brands/diesel.png" alt="Diesel">
+            <img src="assets/images/brands/skagen.png" alt="Skagen">
+            <img src="assets/images/brands/mk.png" alt="Michael Kors">
+            <img src="assets/images/brands/armani.png" alt="Emporio Armani">
+            <img src="assets/images/brands/fossil.png" alt="Fossil">
+            <img src="assets/images/brands/diesel.png" alt="Diesel">
+            <img src="assets/images/brands/skagen.png" alt="Skagen">
+        </div>
+    </section>
+
+    <!-- Flash Sale Section -->
+    <section id="flash-sale" class="section flash-sale-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">⚡ Flash Sale — Limited Time Only</h2>
+                <div class="sale-timer">
+                    <span class="timer-box"><span id="hours">03</span>h</span>
+                    <span class="timer-box"><span id="minutes">45</span>m</span>
+                    <span class="timer-box"><span id="seconds">12</span>s</span>
+                    <span>Left</span>
+                </div>
+            </div>
+            <div class="products-grid">
+                <!-- Flash sale items will be loaded via JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Men's Section -->
+    <section id="men" class="section men-section">
+        <div class="container">
+            <h2 class="section-title">Men's Watches & Straps</h2>
+            <div class="products-grid">
+                <!-- Men's items will be loaded via JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Women's Section -->
+    <section id="women" class="section women-section">
+        <div class="container">
+            <h2 class="section-title">Timeless Grace: Women's Collection</h2>
+            <div class="products-grid">
+                <!-- Women's items will be loaded via JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Accessories Section -->
+    <section id="accessories" class="section accessories-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Complete the Look</h2>
+                <p class="section-subtitle">Accessories that complement your timepiece</p>
+            </div>
+            <div class="filter-tabs">
+                <button class="filter-tab active" data-filter="all">All</button>
+                <button class="filter-tab" data-filter="belts">Belts</button>
+                <button class="filter-tab" data-filter="shoes">Shoes</button>
+                <button class="filter-tab" data-filter="rings">Rings</button>
+            </div>
+            <div class="products-grid">
+                <!-- Accessories will be loaded via JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+   <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-column">
+                    <div class="logo-container">
+                        <img src="assets/Waqt.png" alt="Waqt Logo" class="logo">
+                        <h2>Waqt</h2>
+                    </div>
+                    <p>Timeless craftsmanship since 1984. Redefining luxury watches for the modern era.</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h3>Customer Care</h3>
+                    <ul>
+                        <li><a href="/index.html">Contact Us</a></li>
+                        <li><a href="assets/collections.html">Collection</a></li>
+                        <li><a href="assets/join.html">Join Us</a></li>
+                        <li><a href="#">Shipping & Returns</a></li>
+                        <li><a href="#">Order Tracking</a></li>
+                        <li><a href="#">Warranty Information</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>About Waqt</h3>
+                    <ul>
+                        <li><a href="#">Our Story</a></li>
+                        <li><a href="#">Craftsmanship</a></li>
+                        <li><a href="#">Sustainability</a></li>
+                        <li><a href="#">Press</a></li>
+                        <li><a href="#">Careers</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Store Information</h3>
+                    <address>
+                        Waqt Watches HQ<br>
+                        123 Horology Avenue<br>
+                        Geneva, Switzerland
+                    </address>
+                    <p>Customer Service:<br>
+                    <a href="tel:+18005551234">+1 (800) 555-1234</a></p>
+                    <div class="language-selector">
+                        <select>
+                            <option value="en">English</option>
+                            <option value="fr">Français</option>
+                            <option value="de">Deutsch</option>
+                        </select>
+                        <select>
+                            <option value="usd">USD</option>
+                            <option value="eur">EUR</option>
+                            <option value="gbp">GBP</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Waqt Watches. All rights reserved.</p>
+                <div class="legal-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Cookie Settings</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Shopping Cart Sidebar -->
+ <div class="cart-sidebar">
+        <div class="cart-header">
+            <h3>Your Cart</h3>
+            <button class="close-cart"><i class="fas fa-times"></i></button>
+        </div>
+        <div class="cart-items">
+            <!-- Cart items will be loaded here via JavaScript -->
+        </div>
+        <div class="cart-summary">
+            <div class="cart-total">
+                <span>Subtotal:</span>
+                <span class="total-amount">$0.00</span>
+            </div>
+            <button class="btn btn-primary checkout-btn">Proceed to Checkout</button>
+            <button class="btn btn-outline continue-shopping">Continue Shopping</button>
+        </div>
+    </div>
+    <div class="cart-overlay"></div>
+
+    <!-- Quick View Modal -->
+  <div class="quickview-modal">
+        <div class="quickview-content">
+            <button class="close-quickview"><i class="fas fa-times"></i></button>
+            <div class="quickview-product">
+                <!-- Product details will be loaded here via JavaScript -->
+            </div>
+        </div>
+    </div>
+    <div class="quickview-overlay"></div>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top"><i class="fas fa-arrow-up"></i></button>
+
+    <!-- Scripts -->
+    <script src="collections.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="animations.js"></script>
+    <script src="main.js"></script>
+    <script>
+        AOS.init({
+            duration: 800,
+            easing: 'ease-in-out',
+            once: true,
+            offset: 100
+        });
+    </script>
+</body>
+</html>
