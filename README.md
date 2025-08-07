@@ -12,7 +12,7 @@ Includes a fully functional cart and wishlist system, with persistent data stora
 Theme Toggle
 Offers light and dark mode switching, allowing users to personalize their browsing environment.
 Responsive Design
-Optimized for all devices including desktops, tablets, and mobile phones, ensuring an intuitive user experience across screen sizes.
+Optimized for all devices, including desktops, tablets, and mobile phones, ensuring an intuitive user experience across screen sizes.
 Interactive Elements
 Features include a mobile-friendly navigation menu, a smooth "Back to Top" button, and scroll-triggered animations using AOS (Animate On Scroll).
 Dynamic Data Handling
