@@ -22,7 +22,7 @@ Uses Font Awesome for modern iconography and implements refined visual styling t
 
   ![Image Alt](https://github.com/faizanalisyed2776/Waqt-Timeless-Luxury-Watches/blob/84e4efd3d7fbf48ad468d2747bc625191d2d2934/assets/Shots/Screenshot%202025-07-29%20043338.png)
  
---------||||JOIN ||||--------
+--------|||| JOIN ||||--------
 The 'Join Us' page for the Waqt luxury watch community is a visually appealing and interactive section designed to attract and onboard new members. The page features a dynamic hero section with a compelling headline to immediately engage visitors. It includes a user-friendly authentication section with a toggleable form for login and signup, complete with password visibility toggles and a password strength indicator for new users. The page clearly outlines the exclusive benefits of membership, such as discounts, early access to new releases, and event invites, and reinforces these benefits with a testimonial carousel from satisfied members. A prominent call-to-action button at the bottom encourages users to sign up, leading them to the relevant form.
 
   ![Image Alt](https://github.com/faizanalisyed2776/Waqt-Timeless-Luxury-Watches/blob/46bc9deb101056408d26aa356f57adbc3df1772f/assets/Shots/Screenshot%202025-08-04%20021254.png)
