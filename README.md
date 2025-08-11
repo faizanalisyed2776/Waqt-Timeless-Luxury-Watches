@@ -3,7 +3,7 @@
 Waqt | Timeless Luxury Watches
 A responsive e-commerce website developed using HTML, CSS, and JavaScript, designed to showcase a premium collection of luxury watches and accessories through a modern, elegant interface.
 
-Key Features:
+#Key Features:
 
 Dynamic Product Display
 Users can explore a curated catalog of watches and accessories with advanced filtering options based on gender, strap material, color, and type.
