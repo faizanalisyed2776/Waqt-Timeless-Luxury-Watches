@@ -30,4 +30,4 @@ The 'Join Us' page for the Waqt luxury watch community is a visually appealing a
  --------|||| COLLECTION ||||--------
  The Waqt Collections page blends luxury style with modern e-commerce design. A cinematic video hero sets the tone, followed by animated brand loops and flash-sale timers. Products are displayed in elegant card grids with hover effects, quick views, and cart integration. A dark–light theme toggle, subtle AOS animations, and responsive layouts enhance usability. With refined typography, smooth CSS transitions, and interactive elements, the page delivers a polished, immersive shopping experience
 
-![Image Alt](https://github.com/faizanalisyed2776/Waqt-Timeless-Luxury-Watches/tree/29fc887eebf5fa2de6e6f9383b65003e204f4c8a/assets/Shots)
+![Image Alt](https://github.com/faizanalisyed2776/Waqt-Timeless-Luxury-Watches/blob/a7ad292d2825b5c40c4ea3ce155e189600f50f64/assets/Shots/Screenshot%202025-09-12%20075242.png)
